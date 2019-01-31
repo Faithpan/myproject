@@ -1,11 +1,13 @@
 package com.tom
 
 fun main(args: Array<String>) {
-//step1    println("Hello kotlin")
-//step2    Human().hello()
-//step3
-    val h = Human()
-    h.hello()
+    println("Hello kotlin")
+    Human().hello()
+    var age =19
+    age = 20
+    var weight = 66.5f
+    var name :String
+    name ="Hank"
 }
 
 class Human{
