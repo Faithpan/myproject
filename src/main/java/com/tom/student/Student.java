@@ -14,6 +14,7 @@ public class Student {
     }
 
     public int highest(){
+
 //        int max = (english > math) ? english : math;
        /* if (english > math){
             max=english;
