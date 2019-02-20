@@ -1,9 +1,12 @@
 package com.tom;
 
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
+import com.tom.student.Student;
 
 public class Hello {
     public static void main(String[] args) {
+        Student stu = new Student("Hank",60,60);
+        stu.highest();
 //        System.out.println("Hello world");
 //    new Person().hello();
         String s = "abcde";
